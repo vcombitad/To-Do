@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+    background: rgb(54, 54, 224);
+    width: 300px;
+    color: black;
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    justify-content: space-between;
+}
+.TodoForm-text--title{
+    color: beige;
+    font-size: larger;
+    font-weight: bolder;
+}
+textarea {
+    height: 100px;
+}
+.TodoForm-buttonContainer{
+    display: flex;
+    gap: 30px;
+    align-self: center;
+       
+}
+.TodoForm-Button--cancel, .TodoForm-Button--add{
+    padding: 7px;
+    border-radius: 3px;
+    border-style: none;
+    color: blue;
+    background: rgb(244, 245, 244);
+    cursor: pointer;
+}

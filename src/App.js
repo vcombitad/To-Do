@@ -1,25 +1,32 @@
-import logo from './platzi.webp';
-import './App.css';
+import React from 'react';
+import { AppUi } from './AppUi';
+import { TodoProvider } from './TodoContext';
+
+// const defaultTodos=[
+//   {text:'Cortar Cebolla', completed:true},
+//   {text:'Tomar curso de reactjs', completed:false},
+//   {text:'Llorar con la llorona', completed:true},
+//   {text:'Ver toda la serie Gambito de Dama', completed:false},
+//   {text:'Usar estados derivados', completed:true},
+//   {text:'Tender la cama', completed:false},
+//   {text:'Cantar una canción', completed:false}
+// ]
+
+// localStorage.setItem('TODOS_V1', JSON.stringify(defaultTodos));
+// localStorage.removeItem('TODOS_V1');
+
 
 function App() {
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edita el archivo <code>src/App.js</code> y guarda para recargar.
-        </p>
-        <a
-          className="App-link"
-          href="https://platzi.com/reactjs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <TodoProvider>
+        <AppUi/>
+    </TodoProvider>
+    
+  )
 }
+//cuando las funciones empiezan en mayus son componentes, todo lo dentro del return son elementos
+
 
 export default App;

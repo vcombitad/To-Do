@@ -1,0 +1,20 @@
+.button-create--todo {
+    border-radius: 50%;
+    border-style: none;
+    background: greenyellow;
+    color: white;
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    font-weight: bolder;
+    transform: rotate(0);
+    transition: 0.8s ease;
+    z-index: 0;
+    
+}
+
+.button-create--todo:hover {
+
+    transform: rotate(240deg);
+    cursor: pointer;
+}

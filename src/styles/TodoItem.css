@@ -1,0 +1,39 @@
+.todo-list {
+    background: rgb(255, 255, 255);
+    color: blue;
+}
+.todo-list--option{
+    background: rgb(255, 255, 255);
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    
+}
+.todo-list--option span:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.todo-list--clear {
+    color: black;
+    border: none;
+}
+.check {
+    background: blue;
+    border: 3px solid white;
+}
+.completed{
+    background: greenyellow;
+}
+
+.icon-delete {
+    margin-top: -10px;
+    margin-right: -12px;
+
+}
+.icon-delete:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: red;    
+}
