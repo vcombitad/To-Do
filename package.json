@@ -14,6 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -33,5 +34,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage":"/Users/Ideapad/Documents/reactJs/Task-ToDO/build/"
+  "homepage": "htts://vcombitad.github.io/",
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  }
 }
