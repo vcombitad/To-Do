@@ -8,6 +8,8 @@ form {
     height: 200px;
     width: 300px;
     justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 10px 12px 12px 11px rgba(253, 250, 250, 0.2);
 }
 .TodoForm-text--title{
     color: beige;
@@ -16,6 +18,9 @@ form {
 }
 textarea {
     height: 100px;
+    background: rgb(191, 191, 247);
+    opacity: 0.4;
+    color: rgb(7, 7, 7);
 }
 .TodoForm-buttonContainer{
     display: flex;
